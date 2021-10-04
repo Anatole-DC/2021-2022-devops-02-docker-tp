@@ -1,0 +1,8 @@
+version: "3"
+services:
+  convos:
+    image: "convos/convos:v6.31"
+    volumes:
+      - ./data:/data
+    ports:
+      - "2021:3000"
